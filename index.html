@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔳 QR Code Generator</h1>
+        
+        <p>Paste a URL or any text below to generate a QR code instantly!</p>
+        
+        <input type="text" id="url" placeholder="Enter URL or Text">
+        
+        <div class="buttons">
+            <button onclick="generateQR()">Generate</button>
+            <button onclick="clearQR()">Clear</button>
+        </div>
+        
+        <div id="message"></div>
+        
+        <div id="qrWrapper">
+            <div id="qrCode"></div>
+            <a id="downloadBtn" style="display: none;" download="qrcode.png">⬇ Download QR Code</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

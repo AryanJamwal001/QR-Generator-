@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #00704A;
+    color: white;
+    transition: background 0.3s;
+}
+
+.buttons button:hover {
+    background: #005f3a;
+}
+
+#message {
+    margin: 10px;
+    font-weight: bold;
+    color: #c00;
+}
+
+#qrWrapper {
+    margin-top: 20px;
+}
+
+#downloadBtn {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00704A;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+#downloadBtn:hover {
+    background-color: #005f3a;
+}
